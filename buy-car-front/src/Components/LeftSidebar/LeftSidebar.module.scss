@@ -1,0 +1,68 @@
+.root {
+  height: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  &__buttonsBlock {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+
+      height: 40px;
+      line-height: 30px;
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 17px;
+      cursor: pointer;
+      padding: 5px 20px;
+      margin: 0 10px;
+      transition: 0.2s;
+
+      &:hover {
+        color: rgb(69, 69, 69);
+        scale: 1.05;
+        transition: 0.2s;
+        background-color: rgb(225, 225, 225);
+      }
+
+      &__iconTitle {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+      }
+
+      &__active {
+        background-color: rgb(225, 225, 225);
+        scale: 1.05;
+      }
+
+      &__counter {
+        color: grey;
+      }
+    }
+  }
+
+  &__infoBlock {
+    padding: 20px;
+    color: #808080;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 16px;
+    line-height: 25px;
+
+    &__d2 {
+      text-align: 'end' !important;
+    }
+  }
+}

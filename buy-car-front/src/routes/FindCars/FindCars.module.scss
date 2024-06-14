@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 50px;
+
+  &__filtersContainer {
+  }
+
+  &__tableContainer {
+  }
+
+  &__paginationContainer {
+    padding-bottom: 10px;
+  }
+}
+
+.filtersCollapse {
+  font-size: 20px;
+}
+
+.compFavBtn {
+  transition: 0.3s;
+
+  &:hover {
+    color: grey;
+    scale: 1.2;
+    transition: 0.3s;
+  }
+}

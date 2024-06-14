@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 100px;
+
+  &__formContainer {
+    padding: 40px 40px 20px 40px;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    width: 330px;
+  }
+
+  &__profileBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__nameAndEmailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+  }
+}

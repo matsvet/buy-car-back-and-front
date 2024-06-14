@@ -1,0 +1,44 @@
+.root {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #1f1f1f;
+
+  &__logo {
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace !important;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &__notAuthorized {
+      color: rgb(255, 135, 135);
+    }
+
+    &:hover {
+      color: rgb(155, 155, 155);
+      transition: 0.2s;
+    }
+
+    &__active {
+      scale: 1.5 !important;
+    }
+  }
+
+  &__buttonsBlock {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__currentPage {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace !important;
+  }
+}
